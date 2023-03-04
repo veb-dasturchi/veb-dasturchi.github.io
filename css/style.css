@@ -94,7 +94,6 @@ label {
 }
 
 input[type=checkbox] {
-    border: none;
     position: relative;
     cursor: pointer;
     left: -10px;
@@ -102,7 +101,6 @@ input[type=checkbox] {
 }
 
 input[type=checkbox]:before {
-    border: none;
     content: "";
     display: block;
     position: absolute;
@@ -116,7 +114,6 @@ input[type=checkbox]:before {
 }
 
 input[type=checkbox]:checked:after {
-    border: none;
     content: "";
     display: block;
     width: 5px;
