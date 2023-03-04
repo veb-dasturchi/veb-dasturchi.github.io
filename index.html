@@ -5,11 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TEST</title>
-    <meta http-equiv="refresh" content="3; index.php">
+    <title>New Figma Login Page Design</title>
+    <!-- Style file link -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+
+    <div class="container">
+        <form class="form">
+            <h2 class="dark_title">Sign in</h2>
+            <p class="dark_desc">Sign in and start managing your candidates!</p>
+            <input type="text" placeholder="Login" class="dark" required>
+            <input type="password" placeholder="Password" class="dark" required>
+            <label for="check" class="dark_lab"><input type="checkbox" id="check">Remember me</label>
+            <a href="#" class="dark_link">Forgot password?</a>
+            <input type="submit" value="Login">
+        </form>
+        <button type="button" onclick="changeColor()"></button>
+    </div>
+
+    <script src="script.js"></script>
 
 </body>
 
