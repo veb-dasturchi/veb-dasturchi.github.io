@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: 'Lexend Deca', sans-serif;
     font-family: 'Montserrat', sans-serif;
+    transition: all 0.3s;
 }
 
 :root {
