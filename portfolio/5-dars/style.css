@@ -1,0 +1,56 @@
+/*
+	top - tepa
+	right - o'ng
+	bottom - past
+	left - chap
+	__________________
+
+	margin-top: ;
+	margin-right: ;
+	margin-bottom: ;
+	margin-left: ;
+
+	margin: ;
+*/
+
+* {
+	margin: 0;
+}
+
+.margin_1 {
+	width: 500px;
+	margin: 15px auto;
+	text-align: center;
+	border: 1px solid #000;
+}
+
+/*
+	4 ta qiymat	margin: top, right, bottom, left;
+	3 ta qiymat margin: top, right-left, bottom;
+	2 ta qiymat margin: top-bottom, right-left;
+	1 ta qiymat margin: top-right-bottom-left;
+	auto
+*/
+
+.padding_1 {
+	width: 500px;
+	margin: 50px auto;
+	border: 1px solid #000;
+	padding: 20px 35px 50px;
+}
+
+.btn {
+	padding: 15px 30px;
+	margin: 0 auto;
+	display: block;
+	border-radius: 10px;
+	background-color: black;
+	color: white;
+	text-transform: uppercase;
+}
+
+.btn:hover {
+	background-color: white;
+	color: black;
+	cursor: pointer;
+}

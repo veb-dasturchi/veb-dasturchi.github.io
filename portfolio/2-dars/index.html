@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ranglar bilan ishlash || CSS - Cascading Style Sheets</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<h1 class="sinf-1" id="matn">Hello world</h1>
+
+	<button onclick="red()">RED</button>
+	<button onclick="green()">GREEN</button>
+	<button onclick="blue()">BLUE</button>
+	<button onclick="oq()">WHITE</button>
+	<button onclick="qora()">BLACK</button>
+
+	<script>
+		var matn = document.getElementById("matn");
+		function red() {
+			matn.style.color = "red";
+		}
+		function green() {
+			matn.style.color = "green";
+		}
+		function blue() {
+			matn.style.color = "blue";
+		}
+		function oq() {
+			matn.style.color = "white";
+		}
+		function qora() {
+			matn.style.color = "black";
+		}
+	</script>
+
+</body>
+</html>
