@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;500;600&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -69,6 +68,7 @@ ul li a {
     height: 100%;
 }
 
+
 /* nav end */
 
 header {
@@ -76,7 +76,7 @@ header {
     position: relative;
     width: 100%;
     height: 864px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 100%), url(img/main.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 100%), url("img/main.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -116,6 +116,7 @@ header button {
     line-height: 20px;
     margin-top: 20px;
 }
+
 
 /* header end */
 
@@ -215,6 +216,7 @@ header button {
     height: 20px;
 }
 
+
 /* Services end */
 
 .contact {
@@ -310,6 +312,7 @@ form textarea {
     border: 1px solid #6E6B6B;
 }
 
+
 /* .ch:hover input~.checkmark {
     background-color: #ccc;
 } */
@@ -401,6 +404,7 @@ td {
     color: var(--gray);
 }
 
+
 /* Contact end */
 
 .let {
@@ -442,6 +446,7 @@ td {
     gap: 200px;
 }
 
+
 /* pre-footer end */
 
 .tree {
@@ -457,6 +462,7 @@ td {
 .tree img {
     width: 418.33px;
 }
+
 
 /* about us box1 end - tree */
 
@@ -537,7 +543,9 @@ td {
     height: 12px;
 }
 
+
 /* about us box2 end - team */
+
 .how {
     padding: 100px 0 160px;
 }
@@ -565,7 +573,10 @@ td {
     margin-top: 20px;
 }
 
+
 /* more information end */
+
+
 /* how it works page end */
 
 .faq {
@@ -592,6 +603,7 @@ td {
 .how-it_flex-box {
     margin-top: 70px;
 }
+
 
 /* faq end */
 
@@ -622,13 +634,13 @@ footer {
     text-decoration: underline;
 }
 
+
 /* footer end */
 
 @media screen and (max-width: 1366px) {
-    :root {
+     :root {
         --nav-height: 100px;
     }
-
     header {
         height: 100vh;
     }
@@ -638,111 +650,88 @@ footer {
     .container {
         width: 860px;
     }
-
     ul {
         gap: 13px;
     }
-
     ul li a {
         font-size: 12px;
     }
-
     .header2 {
         height: 200px;
     }
-
     header h3 {
         font-size: 30px;
         line-height: 40px;
     }
-
     header p {
         font-size: 17px;
     }
-
     header button {
         padding: 10px 20px;
         font-size: 15px;
         margin-top: 10px;
     }
-
     .services_flex-box .box p {
         gap: 3px;
         font-size: 16px;
     }
-
     .services_flex-box .box p svg {
         height: 12px;
     }
-
     .title {
         font-size: 16px;
     }
-
     .heading {
         font-size: 24px;
         line-height: 30px;
     }
-
     .just_p {
         font-size: 12px;
         line-height: 20px;
     }
-
     .container_part1 {
         width: 40%;
     }
-
     form input,
     form input::placeholder {
         font-size: 14px;
     }
-
     .container_part2 {
         width: 55%;
         padding: 5%;
     }
-
     .tree img {
         width: 40%;
     }
-
     .flex_text-box .name,
     .step .name,
     .faq_box .name {
         margin-top: 10px;
         font-size: 20px;
     }
-
     .flex_text-box .emp {
         font-size: 12px;
     }
-
     .flex_text-box .desc,
     .steps .desc,
     .faq_box .desc {
         font-size: 12px;
         line-height: 20px;
     }
-
     .flex_text-box button {
         font-size: 14px;
         padding: 10px 25px;
     }
-
     .pre-footer {
         padding: 12% 0 3%;
     }
-
     .we {
         margin-top: 20%;
         font-size: 25px;
     }
-
     footer {
         padding: 8% 0 3%;
     }
-
     .right {
         margin-top: 7%;
         font-size: 12px;
@@ -753,17 +742,14 @@ footer {
     .container {
         width: 600px;
     }
-
     nav i {
         color: white;
         font-size: 20px;
         display: inline-block !important;
     }
-
     .fa-xmark {
         margin-bottom: 100px;
     }
-
     nav ul {
         flex-direction: column;
         height: 100vh;
@@ -778,91 +764,72 @@ footer {
         padding: 4% 0 10% 25px;
         transition: all ease .5s;
     }
-
     .services_flex-box .box p {
         /* gap: 3px; */
         font-size: 12px;
         padding: 10px;
     }
-
     .services_flex-box .box p svg {
         height: 8px;
     }
-
     .title {
         font-size: 14px;
     }
-
     .heading {
         font-size: 20px;
         line-height: 20px;
     }
-
     .just_p {
         font-size: 10px;
         line-height: 16px;
     }
-
     .container_part1 {
         width: 47%;
     }
-
     form input,
     form input::placeholder {
         font-size: 12px;
     }
-
     form input {
         margin-top: 2px !important;
         padding: 8px !important;
     }
-
     form label {
         font-size: 12px;
         margin-top: 15px;
     }
-
     .ch_box p {
         font-size: 12px;
     }
-
     .submit {
         margin-top: 7px !important;
     }
-
     .services {
         padding: 10% 0;
     }
-
     .contact {
         padding: 8% 0 14%;
     }
-
     .container_part2 {
         width: 47%;
         row-gap: 10px;
         padding: 4%;
     }
-
     .part2_c {
         font-size: 10px;
         line-height: 13px;
     }
-
     .gray {
         margin-top: 8px;
         font-size: 13px;
     }
-
     .icons {
         gap: 13px;
         font-size: 13px;
     }
-
     table {
         font-size: 12px;
     }
-
     .flex_text-box .name,
     .step .name,
     .faq_box .name {
@@ -870,11 +837,9 @@ footer {
         font-size: 16px;
         line-height: 16px;
     }
-
     .flex_text-box .emp {
         font-size: 10px;
     }
-
     .flex_text-box .desc,
     .steps .desc,
     .faq_box .desc {
@@ -882,35 +847,28 @@ footer {
         line-height: 16px;
         margin-top: 5px;
     }
-
     .flex_text-box button {
         font-size: 10px;
         padding: 5px 10px;
     }
-
     .team {
         padding: 7% 0 10%;
     }
-
     .let {
         font-size: 14px;
     }
-
     .we {
         margin-top: 20%;
         font-size: 16px;
         line-height: 18px;
     }
-
     .pre button {
         padding: 6px 16px;
         font-size: 14px;
     }
-
     .cc {
         width: 100%;
     }
-
     .content {
         width: 100%;
         padding: 70px;
@@ -918,84 +876,67 @@ footer {
 }
 
 @media screen and (max-width: 630px) {
-    :root {
+     :root {
         --nav-height: 80px;
     }
-
     .container {
         width: 100%;
         padding: 0 40px;
     }
-
     header {
         height: calc(100vh - var(--nav-height));
     }
-
     .services_flex-box {
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }
-
     .services_flex-box .box p {
         font-size: 20px;
         padding: 20px;
     }
-
     .cont {
         flex-direction: column;
         gap: 40px;
     }
-
     .container_part1,
     .container_part2 {
         width: 100%;
     }
-
     header h3 {
         font-size: 23px;
         line-height: 23px;
     }
-
     header p {
         margin-top: 5px;
         font-size: 14px;
     }
-
     .treeS1 {
         gap: 40px;
         flex-direction: column-reverse;
     }
-
     .tree img {
         width: 100%;
     }
-
     .team_flex-box,
     .services_flex,
     .steps {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
-
     .pre {
         gap: 20px;
     }
-
     .we {
         font-size: 23px;
         line-height: 25px;
     }
-
     .we br {
         display: none;
     }
-
     .pre button {
         width: 170px;
     }
-
     .faq {
         padding: 0;
     }
-
     .content {
         padding: 40px;
     }
@@ -1005,38 +946,31 @@ footer {
     .container {
         padding: 0 30px;
     }
-
     .we {
         font-size: 18px;
         line-height: 20px;
     }
-
     ul {
         gap: 8px;
     }
-
     ul li a,
     .right,
     .icons {
         font-size: 10px;
     }
-
     .icons {
         gap: 10px;
     }
-
     .team_flex-box,
     .services_flex,
     .steps {
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }
-
     .pre button {
         width: 150px;
         font-size: 10px;
         padding: 5px;
     }
-
     nav ul {
         width: 100%;
     }
